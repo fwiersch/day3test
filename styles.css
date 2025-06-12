@@ -1,3 +1,16 @@
+h1,h2
+{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: teal;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 div p 
 {
     color:blue;
@@ -6,4 +19,9 @@ div p
 a:hover
 {
     color:black;
+}
+
+input[type="text"]
+{
+    border: 1px solid red;
 }
