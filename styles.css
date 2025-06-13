@@ -56,6 +56,7 @@ input[type="text"]
 .container2
 {
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
     padding: 10px;
@@ -71,5 +72,21 @@ input[type="text"]
     font-size: 16px;
 }
 
-form
-{text-align: center;}
+.container3
+{
+    display:grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.item3
+{
+    background-color: red;
+    color: purple;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
