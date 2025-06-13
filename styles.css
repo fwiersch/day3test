@@ -55,7 +55,7 @@ input[type="text"]
 
 .container2
 {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
     gap:10px;
