@@ -131,8 +131,30 @@
                 <label for="garlic">Sliced Garlic Cheese Bread</label><br>
             </form>
         </div>
-        <div class="item2">The 2nd box</div>
-        <div class="item2">This is the 3rd box</div>
+        <div class="item2">
+            <form>
+                <h3 style="color: rgb(165, 53, 68);">Choose a Meat</h3>
+                <label for="meatpick"></label>
+                    <select id="meatpick" name="meatpick">
+                        <option value="turkey">Turkey</option>
+                        <option value="ham">Ham</option>
+                        <option value="rbeef">Roast Beef</option>
+                    </select>
+            </form>
+        </div>
+        <div class="item2">
+            <form>
+                <h3 style="color: rgb(92, 82, 59);">What Condiments?</h3>
+                <input type="checkbox" name="condi" value="mayo">
+                <label for="mayo">Mayonnaise</label><br>
+
+                <input type="checkbox" name="condi" value="mustard">
+                <label for="mustard">Mustard</label><br>
+
+                <input type="checkbox" name="condi" value="hmust">
+                <label for="hmust">Honey Mustard</label><br>
+            </form>
+        </div>
     </div>
     <h1 style="text-align: center;" style="color: rgb(95, 31, 18);">Let's Make A Sandwhich!!!</h1>
     <form style="glyph-orientation-horizontal: 3deg;" action="/submit" method="POST">
