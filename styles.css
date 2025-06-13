@@ -52,3 +52,21 @@ input[type="text"]
 {
     border: 6px solid red;
 }
+
+.container2
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.item2
+{
+    background-color: goldenrod;
+    color: aqua;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
